@@ -1,0 +1,41 @@
+.headdd{
+    width: 100%;
+}
+body
+{
+background-color:#39fb39;
+}
+
+.headdd
+{
+  color:rgb(38, 0, 255);
+  background-color: cornsilk;
+  font-size: 50px;
+}
+#sketchy{
+    float:right;
+}
+p{
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: blue;
+    color: aqua;
+    width: 600px;
+}
+canvas{
+    border: 5px solid blue;
+    border-radius: 77px;
+    animation-name:cool ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 120px;
+    
+}
+@keyframes cool{from{box-shadow: 3px 3px 30px cyan;}
+to{box-shadow: 3px 3px 30px red;}}
+#score{
+float: left;
+}
+#times{
+float: right;
+}
